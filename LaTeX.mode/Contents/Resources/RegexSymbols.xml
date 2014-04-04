@@ -6,7 +6,11 @@
         <beginregex>{</beginregex>
         <endregex>}</endregex>
     </blocks>
-    
+
+    <symbol id="Part" image="SymbolP" indentation="0" ignoreblocks="yes">
+        <regex>\\part[^{]*{([^}]*(?=})[^{]*)}</regex>
+    </symbol>
+
     <symbol id="Chapter" image="SymbolC" indentation="0" ignoreblocks="yes">
         <regex>\\chapter[^{]*{([^}]*(?=})[^{]*)}</regex>
     </symbol>
